@@ -542,6 +542,23 @@
             margin: 0 auto;
         }
 
+.visit-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #2563eb; /* Tailwind blue-600 */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.visit-button:hover {
+    background-color: #1d4ed8; /* Tailwind blue-700 */
+}
+
+
         .work-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1105,10 +1122,10 @@
             <a href="https://studio--ai-home-fgeim.us-central1.hosted.app/login" target="_blank" class="visit-button">🔗 Visit Live</a>
         </div>
     </div>
-</div>
+
 
             
-            <div class="work-grid">
+           
                 <div class="work-item animate-on-scroll">
                     <div class="work-image"><img src="./agent.jpeg" width="350px" height="250px" alt="agent"></div>
                     <div class="work-content">
